@@ -1,0 +1,64 @@
+<html>
+  <head>
+	<title>Matthew Murray</title>
+	<meta name="generator" content="BBEdit 6.5.3">
+    <meta name="google-site-verification" content="kiHXwB1qYeATO6GmyV9Q6T8E9cA1-VJKmJ2CPY2sIF8" />
+    <script type="text/javascript">
+
+      var _gaq = _gaq || [];
+      _gaq.push(['_setAccount', 'UA-18218894-1']);
+      _gaq.push(['_trackPageview']);
+
+      (function() {
+       var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+       ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+       var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+       })();
+
+     </script>
+
+     <!-- The following three sections are taken from the Skeleton Project
+     See www.getskeleton.com , Copyright 2011, Dave Gamache, MIT License-->
+	 <!-- Mobile Specific Metas - taken from Skeleton
+     ================================================== -->
+     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+
+	 <!-- CSS - taken from Skeleton
+     ================================================== -->
+     <link rel="stylesheet" href="{{site.baseurl}}/stylesheets/base.css"/>
+     <link rel="stylesheet" href="{{site.baseurl}}/stylesheets/skeleton.css"/>
+     <link rel="stylesheet" href="{{site.baseurl}}/stylesheets/layout.css"/>
+
+    <!-- Favicons - taken from Skeleton
+	================================================== -->
+	<link rel="shortcut icon" href="images/favicon.ico">
+	<link rel="apple-touch-icon" href="images/apple-touch-icon.png">
+	<link rel="apple-touch-icon" sizes="72x72" href="images/apple-touch-icon-72x72.png">
+	<link rel="apple-touch-icon" sizes="114x114" href="images/apple-touch-icon-114x114.png">
+
+  </head>
+  <body>
+
+<div id="header">
+</div>
+
+<div class="container">
+
+  <div class="sixteen columns">
+    <h2 class="remove-bottom" style="margin-top: 40px">Matthew Murray - {{page.title }} </h2>
+    <h5><it>Math and Electrical Engineering Student</it></h5>
+    <hr />
+  </div>
+
+  <div class="one-third column">
+    {% capture leftbar %}{% include leftbar.md %}{% endcapture %}
+    {{ leftbar | markdownify }}
+  </div>
+
+  <div class="two-thirds column">
+    {{ content }}
+  </div>
+</div><!-- container -->
+
+</body>
+</html>
