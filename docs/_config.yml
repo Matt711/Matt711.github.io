@@ -54,11 +54,11 @@ plugins:
 #   - vendor/gems/
 #   - vendor/ruby/
 
-remote_theme: chesterhow/tale
+# remote_theme: chesterhow/tale
 
-permalink:    /:year-:month-:day/:title
-paginate:     5
+# permalink:    /:year-:month-:day/:title
+# paginate:     5
 
-plugins:
-  - jekyll-paginate
-  - jekyll-remote-theme
+# plugins:
+#   - jekyll-paginate
+#   - jekyll-remote-theme
