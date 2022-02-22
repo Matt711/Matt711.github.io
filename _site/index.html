@@ -60,6 +60,7 @@
   <li><a href="https://twitter.com/dseematt">Twitter</a></li>
   <li><a href="https://github.com/Matt711">GitHub</a></li>
   <li><a href="https://www.linkedin.com/in/matthew-murray-21365a1b7/">LinkedIn</a></li>
+  <li><a href="https://stackoverflow.com/users/10096386/matthew-murray">Stack Overflow</a></li>
 </ul>
 
 <!-- ### Recent Work
@@ -76,9 +77,15 @@ Mathematics and Electrical Engineering. I am interested in a variety of fields
 including quantitative finance, software engineering, and data science. I also contribute
 to open-source projects in Python’s data science stack; particularly <a href="https://dask.org/">Dask</a>.</p>
 
-<h3 id="work">Work</h3>
+<h3 id="open-source-work">Open-source Work</h3>
 
-<p>A record of my personal projects and contributions to open source is available on GitHub:
+<ul>
+  <li>Currently working on developing a Kubernetes Operator for Dask that follows the <a href="https://kubernetes.io/docs/concepts/extend-kubernetes/operator/">operator pattern</a>. The Operator will be a replacement for <a href="https://kubernetes.dask.org/en/latest/kubecluster.html">dask_kubernetes.KubeCluster</a> that uses Kubernetes <a href="https://kubernetes.io/docs/concepts/extend-kubernetes/api-extension/custom-resources/">Custom Resource Definitions</a> (CRDs). Dask clusters would be created as CRDs on Kubernetes with the Operator communicating with the <a href="https://docs.dask.org/en/stable/scheduler-overview.html">Dask Scheduler</a> to intelligently scale workers up and down. By “intelligently,” I mean with <a href="https://kubernetes.io/docs/tasks/run-application/horizontal-pod-autoscale/">Horizontal Pod Autoscaler</a> (HPA) style autoscaling.</li>
+  <li>Added support to support for multiple worker groups to the <a href="https://github.com/dask/helm-chart">Dask Helm Chart</a>. Dask users can now configure multiple Dask worker groups on Kubernetes with different hardware configurations. For example, this feature enables running high memory or GPU workers and annotating them to run specific tasks. Users can also manage and scale their Dask cluster easily from Python. I wrote a blog post about it on the <a href="https://blog.dask.org/2022/02/17/helm-multiple-worker-groups">Dask Blog</a>.</li>
+</ul>
+
+<h3 id="other-projects">Other Projects</h3>
+<p>A record of my projects and contributions to open source is available on GitHub:
 <a href="https://github.com/Matt711">github.com/Matt711</a>.</p>
 
 <p>I write about my work at <a href="https://medium.com/@dseematt">medium.com/@dseematt</a>.</p>
