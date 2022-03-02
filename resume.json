@@ -1,0 +1,213 @@
+{
+    "firstname": "Matthew",
+    "lastname": "Murray",
+    "contact": {
+      "email": "mamurra5@ncsu.edu",
+      "phone": "(910) 774-0002",
+      "website": "https://matt711.github.io/",
+      "linkedin": "linkedin.com/in/matthew-murray-21365a1b7/",
+      "github": "github.com/Matt711"
+    },
+    "skills": {
+      "details": [
+        {
+          "type": "Programming Languages",
+          "items": [
+            "Python",
+            "MATLAB",
+            "R",
+            "C/C++"
+          ]
+        },
+        {
+          "type": "Tools",
+          "items": [
+            "Git",
+            "Elasticsearch",
+            "Excel",
+            "Kubernetes"
+          ]
+        },
+        {
+          "type": "Interests",
+          "items": [
+            "Sports Analytics",
+            "Scientific Computing",
+            "Finance",
+            "High Performance Computing",
+            "Deep Learning",
+            "Data Visualization",
+            "Web Scraping"
+          ]
+        }
+      ]
+    },
+    "github_projects": {
+      "items": [
+        {
+          "project_name": "Matt711/anime_reference",
+          "tagline": "[anime_reference](https://github.com/Matt711/anime_reference)",
+          "description": [
+            "Python module for scraping static content from anime websites"
+          ],
+          "technology_used": {
+            "tools": [
+              "Python",
+              "Jupyter Notebook"
+            ]
+          }
+        },
+        {
+          "project_name": "Matt711/NBA-Data-Science",
+          "tagline": "[NBA-Data-Science](https://github.com/Matt711/NBA-Data-Science)",
+          "description": [
+            "Web Scraping per game stats to find NBA Player Similarity"
+          ],
+          "technology_used": {
+            "tools": [
+              "Python",
+              "Jupyter Notebook",
+              "Excel",
+              "R"
+            ]
+          }
+        }
+      ]
+    },
+    "work_experience": {
+      "items": [
+        {
+          "title": "Incoming Backend Engineer Intern",
+          "organization": "Robinhood",
+          "location": "Menlo Park, CA",
+          "from": "May 2022",
+          "to": "August 2022",
+          "details": [
+            "Summer 2022 Internship."
+          ],
+          "technology_used": {
+            "tools": [
+              "Python",
+              "Django",
+              "Kubernetes"
+            ]
+          }
+        },
+        {
+          "title": "Dask Deployment Intern",
+          "organization": "NVIDIA",
+          "location": "Santa Clara, CA",
+          "from": "Jan 2022",
+          "to": "May 2022",
+          "details": [
+            "Building Dask and RAPIDS at NVIDIA."
+          ],
+          "technology_used": {
+            "tools": [
+              "Python",
+              "HTML",
+              "Git",
+              "Kubernetes",
+              "PyData: NumPy, CuPy, SciPy, Pandas, cuDF, Dask, Scikit-image, Dask-CUDA, Dask-cuDF"
+            ]
+          }
+        },
+        {
+          "title": "Software Engineering Co-op",
+          "organization": "Oracle",
+          "location": "Morrisville, NC",
+          "from": "Jan 2021",
+          "to": "May 2021",
+          "details": [
+            "Full participation in Agile Software Development Team (Network Services). Built an Alert for Kubernetes Pods Restarting Continuously."
+          ],
+          "technology_used": {
+            "tools": [
+              "Python",
+              "HTML",
+              "Git",
+              "Kubernetes",
+              "Elasticsearch"
+            ]
+          }
+        },
+        {
+          "title": "Software Engineering Co-op",
+          "organization": "Oracle",
+          "location": "Morrisville, NC",
+          "from": "May 2021",
+          "to": "August 2021",
+          "details": [
+            "Managed the Python Packages Project which contains all of Network Services' internal Python Packages. Deployed Projects on Kubernetes Stack and Manually tested code changes by exec'ing into Pods and Running Commands. Managed Resources for Containers in Kubernetes Pods."
+          ],
+          "technology_used": {
+            "tools": [
+              "Python",
+              "HTML",
+              "Git",
+              "Kubernetes",
+              "Elasticsearch"
+            ]
+          }
+        }
+      ]
+    },
+    "additional_info": {
+      "items": [
+        "Interests: Sports Analytics, Board Games, Mathematics, Basketball, Tutoring."
+      ]
+    },
+    "education": {
+      "schools": [
+        {
+          "degree": "Bachelor of Science",
+          "major": "Applied Mathematics",
+          "institution": "North Carolina State University",
+          "graduation_year": 2023
+        },
+        {
+          "degree": "Bachelor of Science",
+          "major": "Electrical Engineering",
+          "institution": "North Carolina State University",
+          "graduation_year": 2024
+        }
+      ]
+    },
+    "undergrad_courses": [
+      {
+        "name": "Mathematics of Scientific Computing",
+        "url": "https://wolfware.ncsu.edu/courses/details/?sis_id=SIS:2019:8:1:MA:402:001"
+      },
+      {
+        "name": "Computer Systems Programming",
+        "url": "https://wolfware.ncsu.edu/courses/details/?sis_id=SIS:2020:1:1:ECE:209:001"
+      },
+      {
+        "name": "Linear Algebra",
+        "url": "https://wolfware.ncsu.edu/courses/details/?sis_id=SIS:2020:8:1:MA:405:001"
+      },
+      {
+        "name": "Probability and Statistics for Engineers",
+        "url": "https://wolfware.ncsu.edu/courses/details/?sis_id=SIS:2019:8:1:ST:370:005"
+      }
+    ],
+    "research_experience": {
+      "items": [
+        {
+          "title": "Computational Biology Research Assistant",
+          "organization": "Sozzani Lab, North Carolina State University",
+          "from": "Aug 2020",
+          "to": "present",
+          "points": [
+            "Developed a Deep Neural Network to Predict the Activation Scores of Protein Sequences. Ran Neural Network Models on NC State's High-Performance Computing Cluster. Presented at the NC State Undergraduate Research & Creativity Symposium. [Presentation](https://youtu.be/jOfUIM9Tcgs)"
+          ]
+        }
+      ]
+    },
+    "show_assessments_on_resume": {
+      "required_assessment": false,
+      "optional_assessment_1": false,
+      "optional_assessment_2": false,
+      "optional_assessment_3": false
+    }
+  }
