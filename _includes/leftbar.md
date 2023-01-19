@@ -1,6 +1,6 @@
 *   [Summary](/)
 <!-- *   [About me](/bio.html) -->
-<!-- *   [Blog](/blog/) -->
+*   [Blog](/blog/)
 *   [Resume](/resume.html)
 *   [Twitter](https://twitter.com/dseematt)
 *   [GitHub](https://github.com/Matt711)
